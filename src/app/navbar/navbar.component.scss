@@ -1,0 +1,134 @@
+/*------------ HEADER ------------*/
+#header {
+	/**background: #4e5944 url(http://googledrive.com/host/0B1ZgnsQpjMRJMmUtRnB2RTZlbDQ/bg-header.jpg) repeat-x left bottom;**/
+	background-color: #000000;
+	padding: 40px 0 46px;
+}
+
+/** navigation **/
+.navigation {	
+	list-style: none;
+	margin: 28px 0 0;
+	padding: 0;
+	float:right;
+}
+.navigation li {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+}
+.navigation li > a {
+	color: #fff;
+	font: bold 13px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+}
+
+.navigation li a.active, .navigation li a:hover {
+	color: #b8c6ac;
+}
+
+.navigation li > div {
+	background-color: #fff;
+	display: none;
+	width: 110px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation li:hover > div {
+	display: block;
+}
+.navigation li > div a {
+	color: #b8c6ac;
+	font: bold 13px/24px "Times New Roman", Times, serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+.navigation li > div a:hover {
+	color: #fff;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.toggleMenuStyle {
+	display: block;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	//background-image: url("/assets/bg02.png"), url("/assets/bg03.png"), url("/assets/bg01.png");
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.navigation .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #f6f6f6;
+}
+
+/**- Mobile -**/
+#menu-small {
+	background-color: #000000;
+	//padding: 80px 0 80px;
+	overflow: hidden;
+	position: relative;
+	background-position: top left, center center, center center;
+	background-size: auto, cover, cover;
+}
+
+#menu-small .navbar-toggler {
+  background-color: #fff;
+  font-size: 0.8em;
+}
+
+#menu-small ul li a:hover, #menu-small ul li a.active { 
+	color: #b8c6ac;
+}
+
+#menu-small li a.active {
+	color: #b8c6ac;
+}
+
+#menu-small li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+}

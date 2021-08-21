@@ -1,0 +1,66 @@
+.main-title-container h1 {
+	font-size: 1.5rem;
+	line-height: 36px;
+	padding: 12px 0 12px;
+	text-transform: none;
+	color: #57614e;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+
+.main-subtitle-container h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.row-container h2 {
+	color: #57614e;
+	font-size: 1.5rem;
+}
+
+.main-title-container p {
+	color: #626262;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 24px;
+}
+
+.row-container {
+	margin-top: 2rem;
+}
+
+.image-service {
+	text-align: center;
+	cursor: default;
+	color: #fff;
+	display: inline-block;
+	line-height: 8em;
+	-webkit-box-shadow: 0 0 0 7px #fff, 0 0 0 8px #e0e0e0;
+	box-shadow: 0 0 0 7px #fff, 0 0 0 8px #e0e0e0;
+	margin: 0 0 2em;
+}
+
+.info-container {
+	text-align: center;
+}
+
+.main-title-container p {
+	text-align: justify;
+}
+
+.main-subtitle-container h2 {
+	color: #57614e;
+	padding: 12px 0 12px;
+	//margin-bottom: 24px;
+}
+
+.main-subtitle-container p {
+	color: #626262;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 24px;
+}
