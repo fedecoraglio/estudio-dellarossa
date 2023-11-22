@@ -1,9 +1,9 @@
 <div class="row row-container">
   <div class="col-12 col-sm-6" *ngFor="let service of servicesList">
     <div class="info-container">
-      <img src="{{service.image}}" class="img-fluid image-service" alt="Img">		
+      <img src="{{service.image}}" width="200px" class="img-fluid image-service" alt="Img">
       <h5>{{service.title}}</h5>
-      <p *ngFor="let d of service.descriptions">{{d}}</p>			
+      <p *ngFor="let d of service.descriptions">{{d}}</p>
     </div>
   </div>
 </div>

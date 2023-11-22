@@ -1,4 +1,4 @@
-<div class="row row-contact">
+<div class="row">
   <div class="col-12">
     <h2 class="title">Contacto</h2>
   </div>
@@ -20,7 +20,7 @@
       </div>
       <div class="col-12">
           <input class="btn btn-success" id="submit" type="submit" name="submit" value="Enviar" [disabled]="!Contactform.form.valid || isProcessingEmail" />
-      </div>			
+      </div>
 		</form>
 		<span class="title-required" *ngIf="!Contactform.form.valid">*Por favor ingrese todos los datos requeridos</span>
 		<div class="alert alert-success" *ngIf="!showMsgError && showMsgSucess">
@@ -30,19 +30,4 @@
 				Hubo un error al enviar su consulta. Por favor intente nuevamente.
 		</div>
 	</div>
-</div>
-<div class="row row-contact">
-  <div class="col-12">
-    <ul class="contact">
-      <li>
-        <p><i class="fa fa-home"></i> Vélez Sarsfield 311 - PB OF. 1 - C&oacute;rdoba Capital</p>
-      </li>
-      <li>
-        <p><i class="fa fa-phone"></i> Tel: (0351) - 4252224 / Cel: (0351) - 152956046</p>
-      </li>
-      <li>
-        <p><i class="fa fa-envelope"></i> Email: contacto@estudiodellarossa.com.ar</p>
-      </li>
-    </ul>
-  </div>
 </div>

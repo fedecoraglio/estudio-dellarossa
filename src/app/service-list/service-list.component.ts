@@ -4,7 +4,7 @@ import { ServicesService } from '../shared/services.service';
 @Component({
   selector: 'app-service-list',
   templateUrl: './service-list.component.html',
-  styleUrls: ['./service-list.component.scss']
+  styleUrls: ['./service-list.component.css']
 })
 export class ServiceListComponent implements OnInit {
 

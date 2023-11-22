@@ -1,38 +1,38 @@
 
 .footer-container {
-  background-color: #000000;
+  background-color: #dfebdc;
   padding-bottom: 4rem;
 }
 
 .footer-container h6 {
-	color: #b5c1aa;
+	color: #598262;
 	font: bold 1rem Arial, Helvetica, sans-serif;
 	margin: 0;
 	text-transform: capitalize;
 }
 
 .footer-container p {
-	color: #fff;
+	color: #000;
 	font-size: 1rem;
 	margin: 0;
 }
 
-.footer-container .contact p {	
+.footer-container .contact p {
 	padding-bottom: 1rem;
 }
 
-.footer-container .contact p a {	
-	color: #b5c1aa;
+.footer-container .contact p a {
+	color: #000;
 }
 
 .footer-container h5 {
-	color: #b5c1aa;
+	color: #598262;
 }
 
 .footer-container .links {
   padding-top: 0;
   padding-bottom: 0;
-  color: #fff;
+  color: #598262;
 }
 
 .footer-container a {
@@ -41,7 +41,7 @@
 }
 
 .footer-container a:hover {
-  color: #37c0fb;
+  color: #598262;
   border-bottom-color: transparent;
 }
 
@@ -53,28 +53,32 @@
 .footer-container .icons {
   text-align: center;
   margin: 0;
+  color: #598262;
 }
 
 .footer-container .icons a:hover {
-  color: #fff;
+  color: #000;
+  decoration: none;
 }
 
 .footer-container .copyright {
-  //color: #999;
   margin-top: 1.5em;
   text-align: center;
   font-size: 0.9em;
+  decoration: none;
 }
 
 .footer-container ul.icons {
   cursor: default;
   padding-top: 6em;
+  decoration: none;
 }
 
 .footer-container ul.icons li {
   display: inline-block;
   line-height: 1em;
   padding-left: 1.5em;
+  decoration: none;
 }
 
 .footer-container ul.icons li:first-child {
@@ -87,7 +91,7 @@
 }
 
 .footer-container i {
-	color: #fff;
+	color: #598262;
 }
 
 .footer-container .media-body-custom p {

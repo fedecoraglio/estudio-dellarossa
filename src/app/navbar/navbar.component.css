@@ -1,12 +1,12 @@
 /*------------ HEADER ------------*/
 #header {
 	/**background: #4e5944 url(http://googledrive.com/host/0B1ZgnsQpjMRJMmUtRnB2RTZlbDQ/bg-header.jpg) repeat-x left bottom;**/
-	background-color: #000000;
+	background-color: #dfebdc;
 	padding: 40px 0 46px;
 }
 
 /** navigation **/
-.navigation {	
+.navigation {
 	list-style: none;
 	margin: 28px 0 0;
 	padding: 0;
@@ -18,11 +18,8 @@
 	position: relative;
 }
 .navigation li > a {
-	color: #fff;
-	font: bold 13px/24px Times, "Times New Roman", serif;
+	color: #598262;
 	text-decoration: none;
-	text-shadow: 1px 1px #000;
-	text-transform: uppercase;
 }
 
 .navigation li a.active, .navigation li a:hover {
@@ -30,9 +27,8 @@
 }
 
 .navigation li > div {
-	background-color: #fff;
+	background-color: #598262;
 	display: none;
-	width: 110px;
 	position: absolute;
 	left: 0px;
 	top: 24px;
@@ -42,19 +38,17 @@
 }
 .navigation li > div a {
 	color: #b8c6ac;
-	font: bold 13px/24px "Times New Roman", Times, serif;
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	text-shadow: none;
 }
 .navigation li > div a:hover {
-	color: #fff;
+	color: #598262;
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
-	color: black;
+	color: #598262;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
@@ -91,7 +85,7 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #598262}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -105,7 +99,7 @@
 
 /**- Mobile -**/
 #menu-small {
-	background-color: #000000;
+	background-color: #dfebdc;
 	//padding: 80px 0 80px;
 	overflow: hidden;
 	position: relative;
@@ -118,7 +112,7 @@
   font-size: 0.8em;
 }
 
-#menu-small ul li a:hover, #menu-small ul li a.active { 
+#menu-small ul li a:hover, #menu-small ul li a.active {
 	color: #b8c6ac;
 }
 
@@ -127,8 +121,49 @@
 }
 
 #menu-small li a {
-	color: #fff;
+	color: #598262;
 	text-decoration: none;
 	text-transform: capitalize;
 	cursor: pointer;
+}
+
+/** navigation **/
+.navigation-mobile {
+	list-style: none;
+	margin: 0 0 0;
+	padding: 0;
+	float:right;
+}
+.navigation-mobile li {
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.navigation-mobile li > a {
+	color: #598262;
+	text-decoration: none;
+}
+
+.navigation-mobile li a.active, .navigation-mobile li a:hover {
+	color: #598262;
+}
+
+.navigation-mobile li > div {
+	background-color: #598262;
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation-mobile li:hover > div {
+	display: block;
+}
+.navigation-mobile li > div a {
+	color: #598262;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation-mobile li > div a:hover {
+	color: #598262;
 }

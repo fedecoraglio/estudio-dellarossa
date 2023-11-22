@@ -5,7 +5,7 @@ import { ServicesService } from '../shared/services.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
 
@@ -13,11 +13,11 @@ export class HomeComponent implements OnInit {
 
   constructor(private servicesService: ServicesService, meta: Meta, title: Title) {
     // Sets the <title></title>
-    title.setTitle('Estudio Dellarossa & Associados');
+    title.setTitle('Nanzer & Dellarossa');
 
     // Sets the <meta> tag for the page
     meta.addTags([
-      { name: 'author', content: 'Estudio Dellarossa' },
+      { name: 'author', content: 'Nanzer & Dellarossa' },
       { name: 'description', content: 'Somos un estudio juridico de la ciudad de Cordoba y nos especializamos en derecho laboral y cobranza.' },
     ]);
   }

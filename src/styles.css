@@ -1,73 +1,9 @@
 body {
-  background-color: #e2e2e2;
+  background-color: #fff;
+  font-family: 'Roca Two', sans-serif;
 }
 
-#header {
-  display: none;
-}
-#menu-small {
-  display: block;
-}
-
-@media screen and (min-width: 480px ) {
-  #header {
-    display: block;
-  }
-  #menu-small {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  #header {
-    display: none;
-  }
-  #menu-small {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  #header {
-    display: none;
-  }
-  #menu-small {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  #header {
-    display: none;
-  }
-  #menu-small {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 736px) {
-  #header {
-    display: none;
-  }
-  #menu-small {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 840px) {
-  #header {
-    display: none;
-  }
-  #menu-small {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 980px) {
-  #header {
-    display: block;
-  }
-  #menu-small {
-    display: none;
-  }
+.btn-secondary {
+  background-color: #598262;
+  border-color: #598262;
 }

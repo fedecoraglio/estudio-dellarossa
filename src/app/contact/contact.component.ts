@@ -5,11 +5,11 @@ import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.css']
 })
 
 export class ContactComponent implements OnInit {
-  
+
   message: IMessage = {};
   showMsgSucess = false;
   showMsgError = false;
@@ -17,11 +17,11 @@ export class ContactComponent implements OnInit {
 
   constructor(private emailService: EmailService, meta: Meta, title: Title) {
       // Sets the <title></title>
-      title.setTitle('Contacto Estudio Dellarossa');
+      title.setTitle('Contacto Nanzer & Dellarossa');
 
       // Sets the <meta> tag for the page
       meta.addTags([
-        { name: 'author', content: 'Estudio Dellarossa & Asociados' },
+        { name: 'author', content: 'Estudio Nanzer & Dellarossa' },
         { name: 'description', content: 'Dejanos tu mensaje y te respondemos rapidamente' },
       ]);
   }
