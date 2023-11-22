@@ -10,7 +10,7 @@ export class BlogComponent implements OnInit {
 
   constructor(meta: Meta, title: Title) {
     // Sets the <title></title>
-    title.setTitle('Blog Estudio Dellarossa & Associados');
+    title.setTitle('Blog Estudio Nanzer & Dellarossa');
 
     // Sets the <meta> tag for the page
     meta.addTags([
