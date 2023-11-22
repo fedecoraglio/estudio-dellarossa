@@ -1,7 +1,12 @@
+
 body {
-  background-color: #fff;
-  font-family: 'Roca Two', sans-serif;
+    background-color: #fff;
 }
+
+*, *:not(body) {
+    font-family: 'Roca Two';
+}
+
 
 .btn-secondary {
   background-color: #598262;
